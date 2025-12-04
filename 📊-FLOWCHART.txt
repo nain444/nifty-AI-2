@@ -1,0 +1,110 @@
+═══════════════════════════════════════════════════════════════════════════
+   📊 VISUAL FLOWCHART - FROM CODE TO APK
+═══════════════════════════════════════════════════════════════════════════
+
+                    ┌─────────────────────────┐
+                    │   YOUR CODE IS READY!   │
+                    │  (nifty-ai-mobile/)     │
+                    └───────────┬─────────────┘
+                                │
+                                ▼
+                    ┌─────────────────────────┐
+                    │  CHOOSE PUSH METHOD:    │
+                    └───────────┬─────────────┘
+                                │
+                ┌───────────────┴───────────────┐
+                │                               │
+                ▼                               ▼
+    ┌──────────────────────┐      ┌──────────────────────┐
+    │  GitHub Desktop      │      │  Command Line        │
+    │  (RECOMMENDED)       │      │  (After Restart)     │
+    └──────────┬───────────┘      └──────────┬───────────┘
+               │                              │
+               │  1. Download & Install       │  1. Restart PC
+               │  2. Add Repository           │  2. Run AUTO-PUSH
+               │  3. Publish                  │  3. Enter credentials
+               │                              │
+               └──────────────┬───────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │   CODE ON GITHUB! ✅    │
+                  │  github.com/nain444/    │
+                  │     nifty-AI-2          │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │  GO TO GITHUB ACTIONS   │
+                  │  Click "Actions" tab    │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │  RUN WORKFLOW           │
+                  │  Click "Run workflow"   │
+                  │  button (green)         │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │  WAIT 5-10 MINUTES ⏱️   │
+                  │  (GitHub builds APK)    │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │  DOWNLOAD APK ⬇️        │
+                  │  From "Artifacts"       │
+                  │  section                │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │  EXTRACT ZIP FILE 📦    │
+                  │  Get app-debug.apk      │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │  COPY TO PHONE 📱       │
+                  │  (USB/Drive/WhatsApp)   │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │  INSTALL ON PHONE       │
+                  │  Enable Unknown Sources │
+                  │  Click Install          │
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+                  ┌─────────────────────────┐
+                  │   START TRADING! 🚀     │
+                  │  Open app → Start       │
+                  │  Signals → Get rich! 💰 │
+                  └─────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════
+
+TIME BREAKDOWN:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Push to GitHub:        2-5 minutes  (one-time setup)
+GitHub Actions Build:  5-10 minutes (automatic)
+Download & Install:    2-3 minutes  (manual)
+────────────────────────────────────────────
+TOTAL TIME:           10-20 minutes ⚡
+
+═══════════════════════════════════════════════════════════════════════════
+
+KEY POINTS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ GitHub Desktop is EASIEST (no command line needed)
+✓ GitHub Actions builds APK automatically (no Android SDK needed locally)
+✓ You only need to do this ONCE
+✓ Future updates: just push code again and rebuild
+✓ APK works on any Android phone (no Play Store needed)
+
+═══════════════════════════════════════════════════════════════════════════

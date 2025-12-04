@@ -1,0 +1,23 @@
+{
+  "appId": "com.nifty.aitrader",
+  "appName": "NIFTY AI Trader",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon",
+      "iconColor": "#3fb950"
+    },
+    "StatusBar": {
+      "style": "Dark",
+      "backgroundColor": "#0a0a0f"
+    }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}

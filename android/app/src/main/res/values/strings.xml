@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NIFTY AI Trader</string>
+    <string name="title_activity_main">NIFTY AI Trader</string>
+    <string name="package_name">com.nifty.aitrader</string>
+    <string name="custom_url_scheme">com.nifty.aitrader</string>
+</resources>

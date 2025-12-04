@@ -1,0 +1,111 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                    📱 NIFTY AI TRADER - ANDROID APK                          ║
+║                                                                              ║
+║                         BUILD YOUR APK IN 3 STEPS                            ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🎯 QUICK START (Choose ONE method):
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ METHOD 1: INTERACTIVE WIZARD (Recommended)                                   │
+│                                                                              │
+│   Double-click: START-HERE.bat                                              │
+│                                                                              │
+│   ✓ Checks your system                                                      │
+│   ✓ Guides you step-by-step                                                 │
+│   ✓ Easiest method                                                          │
+│                                                                              │
+│   Time: 10-15 minutes                                                       │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ METHOD 2: QUICK BUILD                                                        │
+│                                                                              │
+│   Double-click: QUICK-BUILD-APK.bat                                         │
+│                                                                              │
+│   ✓ Fastest method                                                          │
+│   ✓ Downloads minimal SDK                                                   │
+│   ✓ No Android Studio needed                                                │
+│                                                                              │
+│   Time: 10-15 minutes                                                       │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ METHOD 3: GITHUB ACTIONS (Cloud Build)                                      │
+│                                                                              │
+│   1. Create GitHub repository                                               │
+│   2. Push code: git push                                                    │
+│   3. Run workflow on GitHub                                                 │
+│   4. Download APK                                                           │
+│                                                                              │
+│   ✓ No local setup needed                                                   │
+│   ✓ Builds in the cloud                                                     │
+│                                                                              │
+│   Time: 5-10 minutes                                                        │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+📋 REQUIREMENTS:
+
+   ✓ Java 17 or higher (Download: https://adoptium.net/temurin/releases/)
+   ✓ Internet connection
+   ✓ 2GB free disk space
+
+
+📱 AFTER BUILDING:
+
+   1. Copy NIFTY-AI-Trader.apk to your phone
+   2. Open the APK file
+   3. Tap "Install"
+   4. Enable "Install from unknown sources" if prompted
+   5. Done! App icon appears on home screen
+
+
+📚 DOCUMENTATION:
+
+   📄 README-APK.md           - Quick overview
+   📖 HOW-TO-BUILD-APK.md     - Complete guide with troubleshooting
+   🎨 VISUAL-GUIDE.html       - Visual guide (open in browser)
+   🔧 BUILD-APK-GUIDE.md      - Technical details
+
+
+⚡ FEATURES:
+
+   ✓ AI-powered CALL/PUT/EXIT signals
+   ✓ 8 Technical indicators (RSI, MACD, EMA, Bollinger, etc.)
+   ✓ News sentiment analysis
+   ✓ Sound + vibration alerts
+   ✓ 3-day signal history
+   ✓ Mobile-optimized UI
+   ✓ Auto-refresh every 10 seconds
+
+
+🆘 TROUBLESHOOTING:
+
+   Problem: "Java not found"
+   Solution: Install Java 17 from https://adoptium.net/temurin/releases/
+
+   Problem: "Build failed"
+   Solution: Try START-HERE.bat → Option 2 (Full SDK Setup)
+
+   Problem: "App won't install on phone"
+   Solution: Enable "Install from unknown sources" in phone settings
+
+
+🚀 READY TO START?
+
+   Double-click: START-HERE.bat
+
+   OR
+
+   Open: VISUAL-GUIDE.html (in your browser)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Made with ❤️ for NIFTY traders | Build Time: 10-15 minutes | APK Size: ~15-20MB
+
+═══════════════════════════════════════════════════════════════════════════════
