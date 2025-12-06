@@ -25,29 +25,25 @@ jobs:
         java-version: '17'
     
     - name: Install dependencies
-      run: npm install
+      run: npm ci || npm install
+    
+    - name: Sync Capacitor
+      run: npx cap sync android
     
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
     
+    - name: Grant execute permission for gradlew
+      run: chmod +x android/gradlew
+    
     - name: Build APK
       run: |
         cd android
-        chmod +x gradlew
-        ./gradlew assembleDebug --no-daemon
+        ./gradlew assembleDebug --no-daemon --stacktrace
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: NIFTY-AI-Trader-Debug
+        name: NIFTY-AI-Trader-APK
         path: android/app/build/outputs/apk/debug/app-debug.apk
-    
-    - name: Create Release
-      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-      uses: softprops/action-gh-release@v2
-      with:
-        tag_name: v1.0.${{ github.run_number }}
-        name: NIFTY AI Trader v1.0.${{ github.run_number }}
-        files: android/app/build/outputs/apk/debug/app-debug.apk
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if-no-files-found: error
