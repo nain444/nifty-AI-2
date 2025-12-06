@@ -92,7 +92,7 @@ class AITradingEngine {
         const dot = document.getElementById('marketDot');
         const status = document.getElementById('marketStatus');
         if (dot) dot.className = 'status-dot' + (isOpen ? '' : ' off');
-        if (status) status.textContent = isOpen ? 'Open' : 'Closed';
+        if (status) status.textContent = isOpen ? 'Live' : 'Demo';
         return isOpen;
     }
 
@@ -128,18 +128,15 @@ class AITradingEngine {
     }
 
     startEngine() {
-        if (!this.checkMarketStatus()) {
-            this.showMarketClosed();
-            this.fetchPriceData(); // Still show price
-            return;
-        }
+        this.checkMarketStatus();
+        // Always run - demo mode when market closed
         this.fetchAllData();
         this.dataInterval = setInterval(() => {
             this.countdown--;
             if (this.countdown <= 0) {
                 this.countdown = this.refreshInterval;
-                if (this.checkMarketStatus()) this.fetchAllData();
-                else this.showMarketClosed();
+                this.checkMarketStatus();
+                this.fetchAllData();
             }
         }, 1000);
     }
@@ -476,10 +473,8 @@ class AITradingEngine {
 
     // ============ AI ANALYSIS ENGINE ============
     runAnalysis() {
-        if (!this.isMarketOpen()) {
-            this.showMarketClosed();
-            return;
-        }
+        // Always run analysis - demo mode when market closed
+        this.checkMarketStatus();
 
         const closes = this.priceData.map(d => d.close);
         const highs = this.priceData.map(d => d.high);
